@@ -62,15 +62,6 @@ class Active:
         self.outputs = np.maximum(0, inputs)
 
 
-Layer1 = Layer(2,5)
 
-activi1 = Active()
-
-Layer1.foward(X)
-print(Layer1.output)
-
-activi1.forward(Layer1.output)
-
-print(activi1.outputs)
 
 

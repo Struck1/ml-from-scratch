@@ -27,13 +27,3 @@ predictions = regressor.predict(X_test)
 
 print("LR classification accuracy:", accuracy(y_test, predictions))
 
-
-
-b = np.array([[1,2]])
-b.shape
-
-a = np.array([[1, 0], [0, 1],[0, 1]])
-
-a
-
-np.dot(a,b)

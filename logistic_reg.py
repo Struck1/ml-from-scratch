@@ -42,24 +42,3 @@ class LogisticRegression:
 
 
 
-
-inputs = np.array([[0,0,1,1],[0,1,0,1]])
-
-inputs.shape
-
-
-print(inputs)
-weigth = np.array([[0.1],[0.6]])
-weigth
-
-
-C = np.dot(weigth, inputs)
-C
-inputs
-
-
-inputsd = np.array([[0,1,1,1],[0,1,0,1]])
-
-
-C = np.dot(weigth, inputsd)
-C
